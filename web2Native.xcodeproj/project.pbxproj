@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36CD5E5217012895000C8415 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD5E5117012895000C8415 /* UIKit.framework */; };
+		36CD5E5417012895000C8415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD5E5317012895000C8415 /* Foundation.framework */; };
+		36CD5E5617012895000C8415 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD5E5517012895000C8415 /* CoreGraphics.framework */; };
+		36CD5E5C17012895000C8415 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36CD5E5A17012895000C8415 /* InfoPlist.strings */; };
+		36CD5E5E17012895000C8415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CD5E5D17012895000C8415 /* main.m */; };
+		36CD5E6217012895000C8415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CD5E6117012895000C8415 /* AppDelegate.m */; };
+		36CD5E6417012895000C8415 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CD5E6317012895000C8415 /* Default.png */; };
+		36CD5E6617012895000C8415 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CD5E6517012895000C8415 /* Default@2x.png */; };
+		36CD5E6817012895000C8415 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CD5E6717012895000C8415 /* Default-568h@2x.png */; };
+		36CD5E6B17012895000C8415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CD5E6A17012895000C8415 /* ViewController.m */; };
+		36CD5E6E17012895000C8415 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CD5E6C17012895000C8415 /* ViewController_iPhone.xib */; };
+		36CD5E7117012895000C8415 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CD5E6F17012895000C8415 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36CD5E4E17012895000C8415 /* web2Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = web2Native.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CD5E5117012895000C8415 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36CD5E5317012895000C8415 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36CD5E5517012895000C8415 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36CD5E5917012895000C8415 /* web2Native-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "web2Native-Info.plist"; sourceTree = "<group>"; };
+		36CD5E5B17012895000C8415 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36CD5E5D17012895000C8415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36CD5E5F17012895000C8415 /* web2Native-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "web2Native-Prefix.pch"; sourceTree = "<group>"; };
+		36CD5E6017012895000C8415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36CD5E6117012895000C8415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36CD5E6317012895000C8415 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		36CD5E6517012895000C8415 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		36CD5E6717012895000C8415 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		36CD5E6917012895000C8415 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36CD5E6A17012895000C8415 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36CD5E6D17012895000C8415 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		36CD5E7017012895000C8415 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36CD5E4B17012895000C8415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CD5E5217012895000C8415 /* UIKit.framework in Frameworks */,
+				36CD5E5417012895000C8415 /* Foundation.framework in Frameworks */,
+				36CD5E5617012895000C8415 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36CD5E4517012895000C8415 = {
+			isa = PBXGroup;
+			children = (
+				36CD5E5717012895000C8415 /* web2Native */,
+				36CD5E5017012895000C8415 /* Frameworks */,
+				36CD5E4F17012895000C8415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36CD5E4F17012895000C8415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36CD5E4E17012895000C8415 /* web2Native.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36CD5E5017012895000C8415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36CD5E5117012895000C8415 /* UIKit.framework */,
+				36CD5E5317012895000C8415 /* Foundation.framework */,
+				36CD5E5517012895000C8415 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36CD5E5717012895000C8415 /* web2Native */ = {
+			isa = PBXGroup;
+			children = (
+				36CD5E6017012895000C8415 /* AppDelegate.h */,
+				36CD5E6117012895000C8415 /* AppDelegate.m */,
+				36CD5E6917012895000C8415 /* ViewController.h */,
+				36CD5E6A17012895000C8415 /* ViewController.m */,
+				36CD5E6C17012895000C8415 /* ViewController_iPhone.xib */,
+				36CD5E6F17012895000C8415 /* ViewController_iPad.xib */,
+				36CD5E5817012895000C8415 /* Supporting Files */,
+			);
+			path = web2Native;
+			sourceTree = "<group>";
+		};
+		36CD5E5817012895000C8415 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36CD5E5917012895000C8415 /* web2Native-Info.plist */,
+				36CD5E5A17012895000C8415 /* InfoPlist.strings */,
+				36CD5E5D17012895000C8415 /* main.m */,
+				36CD5E5F17012895000C8415 /* web2Native-Prefix.pch */,
+				36CD5E6317012895000C8415 /* Default.png */,
+				36CD5E6517012895000C8415 /* Default@2x.png */,
+				36CD5E6717012895000C8415 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36CD5E4D17012895000C8415 /* web2Native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CD5E7417012895000C8415 /* Build configuration list for PBXNativeTarget "web2Native" */;
+			buildPhases = (
+				36CD5E4A17012895000C8415 /* Sources */,
+				36CD5E4B17012895000C8415 /* Frameworks */,
+				36CD5E4C17012895000C8415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = web2Native;
+			productName = web2Native;
+			productReference = 36CD5E4E17012895000C8415 /* web2Native.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36CD5E4617012895000C8415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "8land games studio";
+			};
+			buildConfigurationList = 36CD5E4917012895000C8415 /* Build configuration list for PBXProject "web2Native" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36CD5E4517012895000C8415;
+			productRefGroup = 36CD5E4F17012895000C8415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36CD5E4D17012895000C8415 /* web2Native */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36CD5E4C17012895000C8415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CD5E5C17012895000C8415 /* InfoPlist.strings in Resources */,
+				36CD5E6417012895000C8415 /* Default.png in Resources */,
+				36CD5E6617012895000C8415 /* Default@2x.png in Resources */,
+				36CD5E6817012895000C8415 /* Default-568h@2x.png in Resources */,
+				36CD5E6E17012895000C8415 /* ViewController_iPhone.xib in Resources */,
+				36CD5E7117012895000C8415 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36CD5E4A17012895000C8415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CD5E5E17012895000C8415 /* main.m in Sources */,
+				36CD5E6217012895000C8415 /* AppDelegate.m in Sources */,
+				36CD5E6B17012895000C8415 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36CD5E5A17012895000C8415 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CD5E5B17012895000C8415 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36CD5E6C17012895000C8415 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CD5E6D17012895000C8415 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		36CD5E6F17012895000C8415 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CD5E7017012895000C8415 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36CD5E7217012895000C8415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36CD5E7317012895000C8415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36CD5E7517012895000C8415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "web2Native/web2Native-Prefix.pch";
+				INFOPLIST_FILE = "web2Native/web2Native-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36CD5E7617012895000C8415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "web2Native/web2Native-Prefix.pch";
+				INFOPLIST_FILE = "web2Native/web2Native-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36CD5E4917012895000C8415 /* Build configuration list for PBXProject "web2Native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CD5E7217012895000C8415 /* Debug */,
+				36CD5E7317012895000C8415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36CD5E7417012895000C8415 /* Build configuration list for PBXNativeTarget "web2Native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CD5E7517012895000C8415 /* Debug */,
+				36CD5E7617012895000C8415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36CD5E4617012895000C8415 /* Project object */;
+}
