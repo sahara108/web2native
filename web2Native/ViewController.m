@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+// change "http://www.google.com" to your website URL, then you are ready to go.
 NSString *const myURL = @"http://www.google.com";
 
 - (void)loadMyURL{
