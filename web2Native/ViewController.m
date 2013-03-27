@@ -13,8 +13,8 @@
 @end
 
 @implementation ViewController
-// change "http://www.google.com" to your website URL, then you are ready to go.
-NSString *const myURL = @"http://www.google.com";
+// change "http://www.8land.org" to your website URL, then you are ready to go.
+NSString *const myURL = @"http://www.8land.org";
 
 - (void)loadMyURL{
     NSString *urlAddress = @"http://google.com";
